@@ -2465,15 +2465,16 @@ li {
 .u-margin-top.is--48 {
     margin-top: 48px
 }
-
+/* Where the main image home is stored */
 .home-hero-desktop {
     max-height: 625px;
     padding-top: 50px;
-    background-image: url("Sketch_Header_to_Copy.jpg");
+    background-image: url('/images/Simple_Header_to_Copy.png');
     background-position: 0 0;
     background-size: cover;
     text-align: left;
 }
+
 
 .global-nav {
     position: fixed;
