@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FczLZMxvsc1O7AXth2o1UB2bOivbI0VDfqqvvO0NCCg=",
+  "Hash": "J0ZQzzaYd9QZ5l7JnV4uOJmraCzhld/rQyGorDZmxqo=",
   "Source": "SimpleBlazor",
   "BasePath": "_content/SimpleBlazor",
   "Mode": "Default",
@@ -8,19 +8,19 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "SimpleBlazor/wwwroot",
+      "Name": "SimpleBlazor\\wwwroot",
       "Source": "SimpleBlazor",
-      "ContentRoot": "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/wwwroot/",
+      "ContentRoot": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\wwwroot\\",
       "BasePath": "_content/SimpleBlazor",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/obj/Debug/net8.0/scopedcss/bundle/SimpleBlazor.styles.css",
+      "Identity": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\SimpleBlazor.styles.css",
       "SourceId": "SimpleBlazor",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/obj/Debug/net8.0/scopedcss/bundle/",
+      "ContentRoot": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/SimpleBlazor",
       "RelativePath": "SimpleBlazor.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/obj/Debug/net8.0/scopedcss/bundle/SimpleBlazor.styles.css"
+      "OriginalItemSpec": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\SimpleBlazor.styles.css"
     },
     {
-      "Identity": "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/obj/Debug/net8.0/scopedcss/projectbundle/SimpleBlazor.bundle.scp.css",
+      "Identity": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SimpleBlazor.bundle.scp.css",
       "SourceId": "SimpleBlazor",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/obj/Debug/net8.0/scopedcss/projectbundle/",
+      "ContentRoot": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/SimpleBlazor",
       "RelativePath": "SimpleBlazor.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/obj/Debug/net8.0/scopedcss/projectbundle/SimpleBlazor.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SimpleBlazor.bundle.scp.css"
     },
     {
-      "Identity": "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/wwwroot/app.css",
+      "Identity": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\wwwroot\\app.css",
       "SourceId": "SimpleBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/wwwroot/",
+      "ContentRoot": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\wwwroot\\",
       "BasePath": "_content/SimpleBlazor",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -71,13 +71,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/app.css"
+      "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/wwwroot/images/asterisks.svg",
+      "Identity": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\wwwroot\\images\\asterisks.svg",
       "SourceId": "SimpleBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/wwwroot/",
+      "ContentRoot": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\wwwroot\\",
       "BasePath": "_content/SimpleBlazor",
       "RelativePath": "images/asterisks.svg",
       "AssetKind": "All",
@@ -90,13 +90,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/asterisks.svg"
+      "OriginalItemSpec": "wwwroot\\images\\asterisks.svg"
     },
     {
-      "Identity": "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/wwwroot/images/bulb-black.svg",
+      "Identity": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\wwwroot\\images\\bulb-black.svg",
       "SourceId": "SimpleBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/wwwroot/",
+      "ContentRoot": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\wwwroot\\",
       "BasePath": "_content/SimpleBlazor",
       "RelativePath": "images/bulb-black.svg",
       "AssetKind": "All",
@@ -109,13 +109,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/bulb-black.svg"
+      "OriginalItemSpec": "wwwroot\\images\\bulb-black.svg"
     },
     {
-      "Identity": "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/wwwroot/images/exclamation.svg",
+      "Identity": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\wwwroot\\images\\exclamation.svg",
       "SourceId": "SimpleBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/wwwroot/",
+      "ContentRoot": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\wwwroot\\",
       "BasePath": "_content/SimpleBlazor",
       "RelativePath": "images/exclamation.svg",
       "AssetKind": "All",
@@ -128,13 +128,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/exclamation.svg"
+      "OriginalItemSpec": "wwwroot\\images\\exclamation.svg"
     },
     {
-      "Identity": "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/wwwroot/images/facebook-f-brands-black.svg",
+      "Identity": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\wwwroot\\images\\facebook-f-brands-black.svg",
       "SourceId": "SimpleBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/wwwroot/",
+      "ContentRoot": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\wwwroot\\",
       "BasePath": "_content/SimpleBlazor",
       "RelativePath": "images/facebook-f-brands-black.svg",
       "AssetKind": "All",
@@ -147,13 +147,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/facebook-f-brands-black.svg"
+      "OriginalItemSpec": "wwwroot\\images\\facebook-f-brands-black.svg"
     },
     {
-      "Identity": "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/wwwroot/images/grad-cap.svg",
+      "Identity": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\wwwroot\\images\\grad-cap.svg",
       "SourceId": "SimpleBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/wwwroot/",
+      "ContentRoot": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\wwwroot\\",
       "BasePath": "_content/SimpleBlazor",
       "RelativePath": "images/grad-cap.svg",
       "AssetKind": "All",
@@ -166,13 +166,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/grad-cap.svg"
+      "OriginalItemSpec": "wwwroot\\images\\grad-cap.svg"
     },
     {
-      "Identity": "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/wwwroot/images/hand-drawn-light-phone-III.svg",
+      "Identity": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\wwwroot\\images\\hand-drawn-light-phone-III.svg",
       "SourceId": "SimpleBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/wwwroot/",
+      "ContentRoot": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\wwwroot\\",
       "BasePath": "_content/SimpleBlazor",
       "RelativePath": "images/hand-drawn-light-phone-III.svg",
       "AssetKind": "All",
@@ -185,13 +185,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/hand-drawn-light-phone-III.svg"
+      "OriginalItemSpec": "wwwroot\\images\\hand-drawn-light-phone-III.svg"
     },
     {
-      "Identity": "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/wwwroot/images/instagram-brands-black.svg",
+      "Identity": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\wwwroot\\images\\instagram-brands-black.svg",
       "SourceId": "SimpleBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/wwwroot/",
+      "ContentRoot": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\wwwroot\\",
       "BasePath": "_content/SimpleBlazor",
       "RelativePath": "images/instagram-brands-black.svg",
       "AssetKind": "All",
@@ -204,13 +204,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/instagram-brands-black.svg"
+      "OriginalItemSpec": "wwwroot\\images\\instagram-brands-black.svg"
     },
     {
-      "Identity": "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/wwwroot/images/light-phone-home.webp",
+      "Identity": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\wwwroot\\images\\light-phone-home.webp",
       "SourceId": "SimpleBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/wwwroot/",
+      "ContentRoot": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\wwwroot\\",
       "BasePath": "_content/SimpleBlazor",
       "RelativePath": "images/light-phone-home.webp",
       "AssetKind": "All",
@@ -223,13 +223,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/light-phone-home.webp"
+      "OriginalItemSpec": "wwwroot\\images\\light-phone-home.webp"
     },
     {
-      "Identity": "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/wwwroot/images/lines-01.svg",
+      "Identity": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\wwwroot\\images\\lines-01.svg",
       "SourceId": "SimpleBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/wwwroot/",
+      "ContentRoot": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\wwwroot\\",
       "BasePath": "_content/SimpleBlazor",
       "RelativePath": "images/lines-01.svg",
       "AssetKind": "All",
@@ -242,13 +242,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/lines-01.svg"
+      "OriginalItemSpec": "wwwroot\\images\\lines-01.svg"
     },
     {
-      "Identity": "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/wwwroot/images/lines-02.svg",
+      "Identity": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\wwwroot\\images\\lines-02.svg",
       "SourceId": "SimpleBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/wwwroot/",
+      "ContentRoot": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\wwwroot\\",
       "BasePath": "_content/SimpleBlazor",
       "RelativePath": "images/lines-02.svg",
       "AssetKind": "All",
@@ -261,13 +261,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/lines-02.svg"
+      "OriginalItemSpec": "wwwroot\\images\\lines-02.svg"
     },
     {
-      "Identity": "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/wwwroot/images/linkedin-in-brands-black.svg",
+      "Identity": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\wwwroot\\images\\linkedin-in-brands-black.svg",
       "SourceId": "SimpleBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/wwwroot/",
+      "ContentRoot": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\wwwroot\\",
       "BasePath": "_content/SimpleBlazor",
       "RelativePath": "images/linkedin-in-brands-black.svg",
       "AssetKind": "All",
@@ -280,13 +280,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/linkedin-in-brands-black.svg"
+      "OriginalItemSpec": "wwwroot\\images\\linkedin-in-brands-black.svg"
     },
     {
-      "Identity": "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/wwwroot/images/microscope.svg",
+      "Identity": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\wwwroot\\images\\microscope.svg",
       "SourceId": "SimpleBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/wwwroot/",
+      "ContentRoot": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\wwwroot\\",
       "BasePath": "_content/SimpleBlazor",
       "RelativePath": "images/microscope.svg",
       "AssetKind": "All",
@@ -299,13 +299,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/microscope.svg"
+      "OriginalItemSpec": "wwwroot\\images\\microscope.svg"
     },
     {
-      "Identity": "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/wwwroot/images/pencil.svg",
+      "Identity": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\wwwroot\\images\\pencil.svg",
       "SourceId": "SimpleBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/wwwroot/",
+      "ContentRoot": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\wwwroot\\",
       "BasePath": "_content/SimpleBlazor",
       "RelativePath": "images/pencil.svg",
       "AssetKind": "All",
@@ -318,13 +318,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/pencil.svg"
+      "OriginalItemSpec": "wwwroot\\images\\pencil.svg"
     },
     {
-      "Identity": "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/wwwroot/images/quotations-blue.svg",
+      "Identity": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\wwwroot\\images\\quotations-blue.svg",
       "SourceId": "SimpleBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/wwwroot/",
+      "ContentRoot": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\wwwroot\\",
       "BasePath": "_content/SimpleBlazor",
       "RelativePath": "images/quotations-blue.svg",
       "AssetKind": "All",
@@ -337,13 +337,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/quotations-blue.svg"
+      "OriginalItemSpec": "wwwroot\\images\\quotations-blue.svg"
     },
     {
-      "Identity": "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/wwwroot/images/Simple_Header_to_Copy.jpg",
+      "Identity": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\wwwroot\\images\\Simple_Header_to_Copy.jpg",
       "SourceId": "SimpleBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/wwwroot/",
+      "ContentRoot": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\wwwroot\\",
       "BasePath": "_content/SimpleBlazor",
       "RelativePath": "images/Simple_Header_to_Copy.jpg",
       "AssetKind": "All",
@@ -356,13 +356,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/Simple_Header_to_Copy.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\Simple_Header_to_Copy.jpg"
     },
     {
-      "Identity": "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/wwwroot/images/simple-ai-logo.svg",
+      "Identity": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\wwwroot\\images\\simple-ai-logo.svg",
       "SourceId": "SimpleBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/wwwroot/",
+      "ContentRoot": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\wwwroot\\",
       "BasePath": "_content/SimpleBlazor",
       "RelativePath": "images/simple-ai-logo.svg",
       "AssetKind": "All",
@@ -375,13 +375,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/simple-ai-logo.svg"
+      "OriginalItemSpec": "wwwroot\\images\\simple-ai-logo.svg"
     },
     {
-      "Identity": "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/wwwroot/images/thumbs-up.svg",
+      "Identity": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\wwwroot\\images\\thumbs-up.svg",
       "SourceId": "SimpleBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/wwwroot/",
+      "ContentRoot": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\wwwroot\\",
       "BasePath": "_content/SimpleBlazor",
       "RelativePath": "images/thumbs-up.svg",
       "AssetKind": "All",
@@ -394,13 +394,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/thumbs-up.svg"
+      "OriginalItemSpec": "wwwroot\\images\\thumbs-up.svg"
     },
     {
-      "Identity": "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/wwwroot/images/twitter-brands-black.svg",
+      "Identity": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\wwwroot\\images\\twitter-brands-black.svg",
       "SourceId": "SimpleBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/wwwroot/",
+      "ContentRoot": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\wwwroot\\",
       "BasePath": "_content/SimpleBlazor",
       "RelativePath": "images/twitter-brands-black.svg",
       "AssetKind": "All",
@@ -413,13 +413,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/twitter-brands-black.svg"
+      "OriginalItemSpec": "wwwroot\\images\\twitter-brands-black.svg"
     },
     {
-      "Identity": "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/wwwroot/images/youtube-brands-black.svg",
+      "Identity": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\wwwroot\\images\\youtube-brands-black.svg",
       "SourceId": "SimpleBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/wwwroot/",
+      "ContentRoot": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\wwwroot\\",
       "BasePath": "_content/SimpleBlazor",
       "RelativePath": "images/youtube-brands-black.svg",
       "AssetKind": "All",
@@ -432,7 +432,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/youtube-brands-black.svg"
+      "OriginalItemSpec": "wwwroot\\images\\youtube-brands-black.svg"
     }
   ]
 }
