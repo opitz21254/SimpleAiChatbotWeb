@@ -12,7 +12,7 @@
             <h1 class="c-herohome-header">
                 MAKE. US.<br />YOUR. CONCIERGE.
             </h1>
-            <h2 class="c-herohome_subheader">Your go-to test message companion for quick-info &amp; useful tools <br />
+            <h2 class="c-herohome_subheader">Your go-to text message companion for quick-info &amp; useful tools <br />
                 while flying Light</h2>
             <div class="position-relative">
                 <div class="u-flex">
@@ -85,15 +85,23 @@
                 <div class="w-container">
                     <div data-w-id="Div Block 4" class="position-relative">
                         <div class="u-margin-y is--48">
-                            <div data-duration-in="300" data-duration-out="100" class="u-flex is--ver w-tabs">
+                            <div data-duration-in="300" data-duration-out="100" class="u-flex is--ver w-tabs">                                
                                 <div class="c-tabs_med w-tab-menu">
-                                    <a data-w-tab="Step 1" class="c-tabs_step1 w-inline-block w-tab-link w--current">
+                                    <a data-w-tab="Step 1" class=@(showSimple ? fancyBlueClass : simpleBlueClass) @onclick=toggleShowSimple>
                                         <div>JUST TEXT / BASIC</div>
                                     </a>
-                                    <a data-w-tab="Step 2" class="c-tabs_step2 w-inline-block w-tab-link">
+                                    <a data-w-tab="Step 2" class=@(showSimple ? simpleBlueClass : fancyBlueClass) @onclick=toggleShowSimple>
                                         <div>TEXT + IMAGES / PLUS</div>
                                     </a>
                                 </div>
+                                @if (showSimple)
+                                {
+                                    <SimpleContent SpecialContent="This is special" />
+                                }
+                                else
+                                {
+                                    <TextAndImages />
+                                }
                                 <div class="w-tab-content">
                                     <div data-w-tab="Step 1" class="w-tab-pane w--tab-active">
                                         <div class="u-padding-y is--24">
@@ -716,3 +724,13 @@
         autoplayHoverPause: true
     });
 </script>
+
+@code {
+    bool showSimple = true;
+    string fancyBlueClass = "c-tabs_step1 w-inline-block w-tab-link w--current";
+    string simpleBlueClass="c-tabs_step2 w-inline-block w-tab-link";
+    void toggleShowSimple()
+    {
+        showSimple = !showSimple;
+    }
+}
