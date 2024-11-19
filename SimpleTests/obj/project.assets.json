@@ -5669,11 +5669,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/opitz/ZCode/SimpleRuleWebApp/SimpleTests/SimpleTests.csproj",
+      "projectUniqueName": "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleTests/SimpleTests.csproj",
       "projectName": "SimpleTests",
-      "projectPath": "/Users/opitz/ZCode/SimpleRuleWebApp/SimpleTests/SimpleTests.csproj",
+      "projectPath": "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleTests/SimpleTests.csproj",
       "packagesPath": "/Users/opitz/.nuget/packages/",
-      "outputPath": "/Users/opitz/ZCode/SimpleRuleWebApp/SimpleTests/obj/",
+      "outputPath": "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleTests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/opitz/.nuget/NuGet/NuGet.Config"
@@ -5688,8 +5688,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/opitz/ZCode/SimpleRuleWebApp/SimpleLogic/SimpleLogic.csproj": {
-              "projectPath": "/Users/opitz/ZCode/SimpleRuleWebApp/SimpleLogic/SimpleLogic.csproj"
+            "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleLogic/SimpleLogic.csproj": {
+              "projectPath": "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleLogic/SimpleLogic.csproj"
             }
           }
         }

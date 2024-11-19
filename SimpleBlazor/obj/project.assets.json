@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/opitz/ZCode/SimpleRuleWebApp/SimpleBlazor/SimpleBlazor.csproj",
+      "projectUniqueName": "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/SimpleBlazor.csproj",
       "projectName": "SimpleBlazor",
-      "projectPath": "/Users/opitz/ZCode/SimpleRuleWebApp/SimpleBlazor/SimpleBlazor.csproj",
+      "projectPath": "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/SimpleBlazor.csproj",
       "packagesPath": "/Users/opitz/.nuget/packages/",
-      "outputPath": "/Users/opitz/ZCode/SimpleRuleWebApp/SimpleBlazor/obj/",
+      "outputPath": "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/opitz/.nuget/NuGet/NuGet.Config"
@@ -51,8 +51,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/opitz/ZCode/SimpleRuleWebApp/SimpleLogic/SimpleLogic.csproj": {
-              "projectPath": "/Users/opitz/ZCode/SimpleRuleWebApp/SimpleLogic/SimpleLogic.csproj"
+            "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleLogic/SimpleLogic.csproj": {
+              "projectPath": "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleLogic/SimpleLogic.csproj"
             }
           }
         }

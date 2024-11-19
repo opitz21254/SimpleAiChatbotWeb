@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/opitz/ZCode/SimpleRuleWebApp/SimpleLogic/SimpleLogic.csproj": {}
+    "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleLogic/SimpleLogic.csproj": {}
   },
   "projects": {
-    "/Users/opitz/ZCode/SimpleRuleWebApp/SimpleLogic/SimpleLogic.csproj": {
+    "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleLogic/SimpleLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/opitz/ZCode/SimpleRuleWebApp/SimpleLogic/SimpleLogic.csproj",
+        "projectUniqueName": "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleLogic/SimpleLogic.csproj",
         "projectName": "SimpleLogic",
-        "projectPath": "/Users/opitz/ZCode/SimpleRuleWebApp/SimpleLogic/SimpleLogic.csproj",
+        "projectPath": "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleLogic/SimpleLogic.csproj",
         "packagesPath": "/Users/opitz/.nuget/packages/",
-        "outputPath": "/Users/opitz/ZCode/SimpleRuleWebApp/SimpleLogic/obj/",
+        "outputPath": "/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleLogic/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/opitz/.nuget/NuGet/NuGet.Config"
