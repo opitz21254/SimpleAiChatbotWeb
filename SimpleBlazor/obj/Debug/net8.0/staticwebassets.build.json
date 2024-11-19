@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6Ptu6fJuUCmH65Amar/ETrPLoKGngds1Wl/KhdqM/a0=",
+  "Hash": "re+O7gR0M5LQi8fzHSTdJ3t3RwXOrGNt/8zrk8W3e3E=",
   "Source": "SimpleBlazor",
   "BasePath": "_content/SimpleBlazor",
   "Mode": "Default",
@@ -188,25 +188,6 @@
       "OriginalItemSpec": "wwwroot/images/hand-drawn-light-phone-III.svg"
     },
     {
-      "Identity": "/Users/opitz/ZCode/SimpleRuleWebApp/SimpleBlazor/wwwroot/images/image.png",
-      "SourceId": "SimpleBlazor",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/opitz/ZCode/SimpleRuleWebApp/SimpleBlazor/wwwroot/",
-      "BasePath": "_content/SimpleBlazor",
-      "RelativePath": "images/image.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/image.png"
-    },
-    {
       "Identity": "/Users/opitz/ZCode/SimpleRuleWebApp/SimpleBlazor/wwwroot/images/instagram-brands-black.svg",
       "SourceId": "SimpleBlazor",
       "SourceType": "Discovered",
@@ -359,6 +340,25 @@
       "OriginalItemSpec": "wwwroot/images/quotations-blue.svg"
     },
     {
+      "Identity": "/Users/opitz/ZCode/SimpleRuleWebApp/SimpleBlazor/wwwroot/images/Simple_Header_to_Copy.jpg",
+      "SourceId": "SimpleBlazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/opitz/ZCode/SimpleRuleWebApp/SimpleBlazor/wwwroot/",
+      "BasePath": "_content/SimpleBlazor",
+      "RelativePath": "images/Simple_Header_to_Copy.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/Simple_Header_to_Copy.jpg"
+    },
+    {
       "Identity": "/Users/opitz/ZCode/SimpleRuleWebApp/SimpleBlazor/wwwroot/images/simple-ai-logo.svg",
       "SourceId": "SimpleBlazor",
       "SourceType": "Discovered",
@@ -376,25 +376,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/simple-ai-logo.svg"
-    },
-    {
-      "Identity": "/Users/opitz/ZCode/SimpleRuleWebApp/SimpleBlazor/wwwroot/images/Sketch_Header_to_Copy.jpg",
-      "SourceId": "SimpleBlazor",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/opitz/ZCode/SimpleRuleWebApp/SimpleBlazor/wwwroot/",
-      "BasePath": "_content/SimpleBlazor",
-      "RelativePath": "images/Sketch_Header_to_Copy.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/Sketch_Header_to_Copy.jpg"
     },
     {
       "Identity": "/Users/opitz/ZCode/SimpleRuleWebApp/SimpleBlazor/wwwroot/images/thumbs-up.svg",

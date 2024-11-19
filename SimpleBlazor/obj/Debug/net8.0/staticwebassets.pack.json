@@ -9,8 +9,8 @@
       "PackagePath": "staticwebassets/app.css"
     },
     {
-      "Id": "/Users/opitz/ZCode/SimpleRuleWebApp/SimpleBlazor/wwwroot/images/Sketch_Header_to_Copy.jpg",
-      "PackagePath": "staticwebassets/images/Sketch_Header_to_Copy.jpg"
+      "Id": "/Users/opitz/ZCode/SimpleRuleWebApp/SimpleBlazor/wwwroot/images/Simple_Header_to_Copy.jpg",
+      "PackagePath": "staticwebassets/images/Simple_Header_to_Copy.jpg"
     },
     {
       "Id": "/Users/opitz/ZCode/SimpleRuleWebApp/SimpleBlazor/wwwroot/images/asterisks.svg",
@@ -35,10 +35,6 @@
     {
       "Id": "/Users/opitz/ZCode/SimpleRuleWebApp/SimpleBlazor/wwwroot/images/hand-drawn-light-phone-III.svg",
       "PackagePath": "staticwebassets/images/hand-drawn-light-phone-III.svg"
-    },
-    {
-      "Id": "/Users/opitz/ZCode/SimpleRuleWebApp/SimpleBlazor/wwwroot/images/image.png",
-      "PackagePath": "staticwebassets/images/image.png"
     },
     {
       "Id": "/Users/opitz/ZCode/SimpleRuleWebApp/SimpleBlazor/wwwroot/images/instagram-brands-black.svg",

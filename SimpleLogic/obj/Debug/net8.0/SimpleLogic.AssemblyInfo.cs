@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SimpleLogic")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+73ac38cd2544b03c16e53c890edfc1085a92996a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+673345931864842b1c706f37481b16a6cde153cb")]
 [assembly: System.Reflection.AssemblyProductAttribute("SimpleLogic")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SimpleLogic")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
