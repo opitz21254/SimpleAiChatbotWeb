@@ -22,6 +22,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/brennan.opitz/Code/SimpleAiChatbotWeb/SimpleBlazor/Components/JustTextBasic.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xKdXN0VGV4dEJhc2ljLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/brennan.opitz/Code/SimpleAiChatbotWeb/SimpleBlazor/Components/Pages/About.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBYm91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -52,6 +56,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/brennan.opitz/Code/SimpleAiChatbotWeb/SimpleBlazor/Components/TextAndImages.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xUZXh0QW5kSW1hZ2VzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brennan.opitz/Code/SimpleAiChatbotWeb/SimpleBlazor/Components/TextAndImagesVip.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xUZXh0QW5kSW1hZ2VzVmlwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/brennan.opitz/Code/SimpleAiChatbotWeb/SimpleBlazor/Components/_Imports.razor]

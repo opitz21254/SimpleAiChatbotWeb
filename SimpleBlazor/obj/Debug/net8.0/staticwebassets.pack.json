@@ -21,6 +21,14 @@
       "PackagePath": "staticwebassets\\images\\bulb-black.svg"
     },
     {
+      "Id": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\wwwroot\\images\\chevron-down-blue.svg",
+      "PackagePath": "staticwebassets\\images\\chevron-down-blue.svg"
+    },
+    {
+      "Id": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\wwwroot\\images\\dotted-line-blue.svg",
+      "PackagePath": "staticwebassets\\images\\dotted-line-blue.svg"
+    },
+    {
       "Id": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\wwwroot\\images\\exclamation.svg",
       "PackagePath": "staticwebassets\\images\\exclamation.svg"
     },
@@ -61,8 +69,24 @@
       "PackagePath": "staticwebassets\\images\\microscope.svg"
     },
     {
+      "Id": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\wwwroot\\images\\number-one.svg",
+      "PackagePath": "staticwebassets\\images\\number-one.svg"
+    },
+    {
+      "Id": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\wwwroot\\images\\number-three.svg",
+      "PackagePath": "staticwebassets\\images\\number-three.svg"
+    },
+    {
+      "Id": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\wwwroot\\images\\number-two.svg",
+      "PackagePath": "staticwebassets\\images\\number-two.svg"
+    },
+    {
       "Id": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\wwwroot\\images\\pencil.svg",
       "PackagePath": "staticwebassets\\images\\pencil.svg"
+    },
+    {
+      "Id": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\wwwroot\\images\\pluses-07-blue.svg",
+      "PackagePath": "staticwebassets\\images\\pluses-07-blue.svg"
     },
     {
       "Id": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\wwwroot\\images\\quotations-blue.svg",
@@ -71,6 +95,10 @@
     {
       "Id": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\wwwroot\\images\\simple-ai-logo.svg",
       "PackagePath": "staticwebassets\\images\\simple-ai-logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\wwwroot\\images\\swirly-arrow-white.svg",
+      "PackagePath": "staticwebassets\\images\\swirly-arrow-white.svg"
     },
     {
       "Id": "C:\\Users\\brennan.opitz\\Code\\SimpleAiChatbotWeb\\SimpleBlazor\\wwwroot\\images\\thumbs-up.svg",
