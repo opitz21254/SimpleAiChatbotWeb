@@ -40,7 +40,7 @@ jobs:
       name: 'Production'
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
     permissions:
-      id-token: write #This is required for requesting the JWT
+      id-token: write # Required for requesting the JWT
 
     steps:
       - name: Download artifact from build job
@@ -51,9 +51,9 @@ jobs:
       - name: Login to Azure
         uses: azure/login@v2
         with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_3AA7B6913496415AA617C01DD8421E6F }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_D79BB47178D54C17914052C4DF108D3F }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_572A45C65341413380B6A0589115E355 }}
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID }}
 
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
@@ -61,5 +61,4 @@ jobs:
         with:
           app-name: 'simplerulewebapp'
           slot-name: 'Production'
-          package: .
-          
+          package: ${{env.DOTNET_ROOT}}/myapp
