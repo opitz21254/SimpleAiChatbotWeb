@@ -38,6 +38,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9NYWluQ29udGVudFNlbGVjdG9yLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/Components/ModalWrapperLogin.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Nb2RhbFdyYXBwZXJMb2dpbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/Components/ModalWrapperRegister.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Nb2RhbFdyYXBwZXJSZWdpc3Rlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/Components/NavBarDesktop.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9OYXZCYXJEZXNrdG9wLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/Components/NavBarMobile.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9OYXZCYXJNb2JpbGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/Components/Pages/About.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9BYm91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
