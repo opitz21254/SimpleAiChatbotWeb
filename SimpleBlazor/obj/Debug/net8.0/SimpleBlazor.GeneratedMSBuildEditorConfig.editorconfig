@@ -22,8 +22,20 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9BcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/Components/EndingFreeTrialBanner.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9FbmRpbmdGcmVlVHJpYWxCYW5uZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/Components/GlobalFooter.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9HbG9iYWxGb290ZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/Components/JustTextBasic.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9KdXN0VGV4dEJhc2ljLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/Components/MainContentSelector.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9NYWluQ29udGVudFNlbGVjdG9yLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/Components/Pages/About.razor]
@@ -50,16 +62,28 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Sb3V0ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/Components/SimpleContent.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9TaW1wbGVDb250ZW50LnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
 [/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/Components/TextAndImages.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9UZXh0QW5kSW1hZ2VzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/Components/TextAndImagesVip.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9UZXh0QW5kSW1hZ2VzVmlwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/Components/TheDisconnectMovement.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9UaGVEaXNjb25uZWN0TW92ZW1lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/Components/UserReviews.Razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Vc2VyUmV2aWV3cy5SYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/Components/UsersPreferLightPhone.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Vc2Vyc1ByZWZlckxpZ2h0UGhvbmUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/Components/WelcomeBanner.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9XZWxjb21lQmFubmVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/Components/_Imports.razor]
