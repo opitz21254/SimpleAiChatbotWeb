@@ -82,10 +82,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Sb3V0ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/Components/TextAndImages.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9UZXh0QW5kSW1hZ2VzLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
 [/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/Components/TextAndImagesVip.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9UZXh0QW5kSW1hZ2VzVmlwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
