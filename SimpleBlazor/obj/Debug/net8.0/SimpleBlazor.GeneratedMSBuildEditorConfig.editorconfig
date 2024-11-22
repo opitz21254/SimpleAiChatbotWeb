@@ -22,6 +22,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9BcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/Components/Economical.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9FY29ub21pY2FsLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/Components/EndingFreeTrialBanner.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9FbmRpbmdGcmVlVHJpYWxCYW5uZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -38,6 +42,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9NYWluQ29udGVudFNlbGVjdG9yLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/Components/Melatonincycle.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9NZWxhdG9uaW5jeWNsZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/Components/ModalWrapperLogin.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Nb2RhbFdyYXBwZXJMb2dpbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -52,10 +60,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/Components/NavBarMobile.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9OYXZCYXJNb2JpbGUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/Components/Pages/About.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9BYm91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/opitz/ZCode/SimpleAiChatbotWeb/SimpleBlazor/Components/Pages/Error.razor]
