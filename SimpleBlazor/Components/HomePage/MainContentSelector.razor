@@ -1,0 +1,153 @@
+@namespace SimpleRuleBlazor.Components.HomePage
+
+<div>
+    <div class="w-container">
+        <div class="u-margin-top is--48">
+            <h3 class="u-align-center">Choose Your Unplug Motivator</h3>
+        </div>
+    </div>
+    <div class="tab-dropdown">
+        <div>Pick a Program</div>
+        <img src="images/chevron-down-blue.svg" loading="lazy" alt="" />
+    </div>
+    <div data-duration-in="300" data-duration-out="100" class="tabs w-tabs">
+        <div class="c-tabs_menu w-tab-menu">
+            <a data-w-tab="Medical" class="c-program_tab_med w-inline-block w-tab-link w--current"
+                @onclick=setCurrentPaneMedical>
+                <div>
+                    <span class="medical">Focus</span>
+                </div>
+            </a>
+            <a data-w-tab="MCAT" class="c-program_tab_mcat w-inline-block w-tab-link" @onclick=setCurrentPaneMcat>
+                <div>Time</div>
+            </a>
+            <a data-w-tab="PA" class="c-program_tab_pa w-inline-block w-tab-link" @onclick=setCurrentPanePa>
+                <div>Fatiuge</div>
+            </a>
+            <a data-w-tab="Pharm" class="c-program_tab_pharm w-inline-block w-tab-link" @onclick=setCurrentPanePharm>
+                <div>Melatonin Cycle</div>
+            </a>
+            <a data-w-tab="Nursing" class="c-program_tab_nursing w-inline-block w-tab-link"
+                @onclick=setCurrentPaneNursing>
+                <div>Economical</div>
+            </a>
+        </div>
+
+        <div class="u-background-light-blue w-tab-content">
+            <div data-w-tab="Medical" class=@medicalClass>
+                <div data-w-id="Div Block 4" class="position-relative">
+                    <div class="u-margin-y is--48">
+                        <div data-duration-in="300" data-duration-out="100" class="u-flex is--ver w-tabs">
+                            <div class="c-tabs_med w-tab-menu">
+                                <a data-w-tab="Step 1" class=@(showSimple ? fancyBlueClass : simpleBlueClass)
+                                    @onclick=toggleShowSimple>
+                                    <div>JUST TEXT / BASIC</div>
+                                </a>
+                                <a data-w-tab="Step 2" class=@(showSimple ? simpleBlueClass : fancyBlueClass)
+                                    @onclick=toggleShowSimple>
+                                    <div>TEXT + IMAGES / VIP</div>
+                                </a>
+                            </div>
+                            @if (showSimple)
+                            {
+                                <JustTextBasic />
+                            }
+                            else
+                            {
+                                <TextAndImagesVip />
+                            }
+                        </div>
+                    </div>
+                    <div class="svg-home_001">
+                        <img src="images/dotted-line-blue.svg" loading="eager" width="700" alt="" />
+                    </div>
+                    <div class="svg-home_002">
+                        <img src="images/pluses-07-blue.svg" loading="eager" width="550" alt="" />
+                    </div>
+                </div>
+            </div>
+            <div data-w-tab="MCAT" class=@mcatClass>
+                <Mcat />
+            </div>
+
+            <div data-w-tab="PA" class=@paClass>
+                <Pa />
+            </div>
+
+            <div data-w-tab="Pharm" class=@pharmClass>
+                <Pharm />
+            </div>
+            <div data-w-tab="Nursing" class=@nursingClass>
+                <Nursing />
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    // UI States
+    string medicalClass = "w-tab-pane w--tab-active";
+    string mcatClass = "w-tab-pane";
+    string paClass = "w-tab-pane";
+    string pharmClass = "w-tab-pane";
+    string nursingClass = "w-tab-pane";
+
+    void setCurrentPaneMedical()
+    {
+        // Reset all tab classes to inactive
+        medicalClass = "w-tab-pane w--tab-active";
+        mcatClass = "w-tab-pane";
+        paClass = "w-tab-pane";
+        pharmClass = "w-tab-pane";
+        nursingClass = "w-tab-pane";
+    }
+
+    void setCurrentPaneMcat()
+    {
+        // Reset all tab classes to inactive
+        medicalClass = "w-tab-pane";
+        mcatClass = "w-tab-pane w--tab-active";
+        paClass = "w-tab-pane";
+        pharmClass = "w-tab-pane";
+        nursingClass = "w-tab-pane";
+    }
+
+    void setCurrentPanePa()
+    {
+        // Reset all tab classes to inactive
+        medicalClass = "w-tab-pane";
+        mcatClass = "w-tab-pane";
+        paClass = "w-tab-pane w--tab-active";
+        pharmClass = "w-tab-pane";
+        nursingClass = "w-tab-pane";
+    }
+
+    void setCurrentPanePharm()
+    {
+        // Reset all tab classes to inactive
+        medicalClass = "w-tab-pane";
+        mcatClass = "w-tab-pane";
+        paClass = "w-tab-pane";
+        pharmClass = "w-tab-pane w--tab-active";
+        nursingClass = "w-tab-pane";
+    }
+
+    void setCurrentPaneNursing()
+    {
+        // Reset all tab classes to inactive
+        medicalClass = "w-tab-pane";
+        mcatClass = "w-tab-pane";
+        paClass = "w-tab-pane";
+        pharmClass = "w-tab-pane";
+        nursingClass = "w-tab-pane w--tab-active";
+    }
+
+    //Code To Toggle First Pane
+    bool showSimple = true;
+    string fancyBlueClass = "c-tabs_step1 w-inline-block w-tab-link w--current";
+    string simpleBlueClass = "c-tabs_step2 w-inline-block w-tab-link";
+    void toggleShowSimple()
+    {
+        showSimple = !showSimple;
+    }
+}
