@@ -1,32 +1,59 @@
-name: Build and deploy ASP.Net Core app to Azure Web App - simpleai
+name: Build and deploy SimpleRuleAiChatBotWeb to Azure
 
-on: [push]
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   build-and-deploy:
-    runs-on: self-hosted
+    runs-on: windows-latest
     steps:
-      - name: Azure login
+      # Checkout the code from the repository
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      # Set up .NET Core SDK
+      - name: Set up .NET Core
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.x'
+      
+      # Build the project using dotnet
+      - name: Build with dotnet
+        run: dotnet build --configuration Release
+      
+      # Publish the application to a specified folder
+      - name: dotnet publish
+        run: dotnet publish -c Release -o ./output
+      
+      # Upload the build artifact for deployment job
+      - name: Upload artifact for deployment job
+        uses: actions/upload-artifact@v4
+        with:
+          name: Simpleaichatbotweb
+          path: ./output
+
+      # Login to Azure using the credentials stored in GitHub Secrets
+      - name: Login to Azure
         uses: azure/login@v2
         with:
-          auth-type: IDENTITY
-          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
-          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
-          enable-AzPSSession: true
-
-      # Azure CLI Action only supports linux self-hosted runners for now.
-      # If you want to execute the Azure CLI script on a windows self-hosted runner, you can execute it directly in `run`.
-      - name: Azure CLI script
-        uses: azure/cli@v2
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID }}
+      
+      # Download the artifact from the build job (which is uploaded earlier)
+      - name: Download artifact from build job
+        uses: actions/download-artifact@v4
         with:
-          azcliversion: latest
-          inlineScript: |
-            az account show
+          name: Simpleaichatbotweb
 
-      - name: Azure PowerShell script
-        uses: azure/powershell@v2
+      # Deploy the app to Azure Web App using the Azure Web Apps Deploy action
+      - name: Deploy to Azure Web App
+        id: deploy-to-webapp
+        uses: azure/webapps-deploy@v3
         with:
-          azPSVersion: "latest"
-          inlineScript: |
-            Get-AzContext
-            Get-AzResourceGroup
+          app-name: 'simpleai'
+          slot-name: 'Production'
+          package: './Simpleaichatbotweb'  # Adjust if necessary to point to your artifact folder
