@@ -21,19 +21,13 @@ jobs:
           dotnet-version: '8.x'
       
       # Build the project using dotnet
-      - name: Build with dotnet
-        run: dotnet build --configuration Release
+      - name: Run Tests
+        run: dotnet test --configuration Release
       
       # Publish the application to a specified folder
       - name: dotnet publish
+        working-directory: ./SimpleBlazor
         run: dotnet publish -c Release -o ./output
-      
-      # Upload the build artifact for deployment job
-      - name: Upload artifact for deployment job
-        uses: actions/upload-artifact@v4
-        with:
-          name: Simpleaichatbotweb
-          path: ./output
 
       # Login to Azure using the credentials stored in GitHub Secrets
       - name: Login to Azure
@@ -42,12 +36,6 @@ jobs:
           client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID }}
           tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID }}
           subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID }}
-      
-      # Download the artifact from the build job (which is uploaded earlier)
-      - name: Download artifact from build job
-        uses: actions/download-artifact@v4
-        with:
-          name: Simpleaichatbotweb
 
       # Deploy the app to Azure Web App using the Azure Web Apps Deploy action
       - name: Deploy to Azure Web App
@@ -56,4 +44,4 @@ jobs:
         with:
           app-name: 'simpleai'
           slot-name: 'Production'
-          package: './SimpleAiChatBotWeb'  # Adjust if necessary to point to your artifact folder
+          package: './output' 
