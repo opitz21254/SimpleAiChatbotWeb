@@ -12,12 +12,12 @@ jobs:
     permissions:
       id-token: write
     steps:
-      # Login to Azure using the credentials stored in GitHub Secrets
-      - name: Login to Azure
+      # Login to Azure using publish profile
+      - name: Login to Azure Web App
         uses: azure/login@v1
         with:
-          publish-profile: ${{ secrets.PUBLISH_SECRETS_2 }}
-          
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
+
       # Checkout the code from the repository
       - name: Checkout code
         uses: actions/checkout@v4
@@ -39,9 +39,10 @@ jobs:
         
       # Deploy the app to Azure Web App using the Azure Web Apps Deploy action
       - name: Deploy to Azure Web App
-        id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
         with:
+          publish-profile: ${{ secrets.PUBLISH_PROFILE }}
           app-name: 'simpleai'
           slot-name: 'Production'
-          package: './output' 
+          package: './output'
+
