@@ -1,4 +1,7 @@
-name: Build and deploy SimpleRuleAiChatBotWeb to Azure
+# Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
+# More GitHub Actions for Azure: https://github.com/Azure/actions
+
+name: Build and deploy ASP.Net Core app to Azure Web App - simpleai
 
 on:
   push:
@@ -7,43 +10,56 @@ on:
   workflow_dispatch:
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: windows-latest
-    permissions:
-      id-token: write
+
     steps:
-      # Checkout the code from the repository
-      - name: Checkout code
-        uses: actions/checkout@v4
-      
-      # Set up .NET Core SDK
+      - uses: actions/checkout@v4
+
       - name: Set up .NET Core
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '8.x'
-      
-      # Build the project using dotnet
-      - name: Run Tests
-        run: dotnet test --configuration Release
-      
-      # Publish the application to a specified folder
-      - name: dotnet publish
-        working-directory: ./SimpleBlazor
-        run: dotnet publish -c Release -o ./output
 
-      # Login to Azure using the credentials stored in GitHub Secrets
+      - name: Build with dotnet
+        run: dotnet build --configuration Release
+
+      - name: dotnet publish
+        run: dotnet publish -c Release -o "${{env.DOTNET_ROOT}}/myapp"
+
+      - name: Upload artifact for deployment job
+        uses: actions/upload-artifact@v4
+        with:
+          name: .net-app
+          path: ${{env.DOTNET_ROOT}}/myapp
+
+  deploy:
+    runs-on: windows-latest
+    needs: build
+    environment:
+      name: 'Production'
+      url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
+    permissions:
+      id-token: write #This is required for requesting the JWT
+
+    steps:
+      - name: Download artifact from build job
+        uses: actions/download-artifact@v4
+        with:
+          name: .net-app
+      
       - name: Login to Azure
         uses: azure/login@v2
         with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_8A870D147FE844779DA75DC5B37FB7C9 }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_8406C614B8054AFCA5E396B24A83C81C }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_37D17D5707C44E8B85F67EA7ED924E31 }}
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_C4D224AA088645A5BB49FB11D11CBFF6 }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_92BA949D42DD44C89D3FD2116EF626B4 }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_80F14AC55F4D4EC1B39F1B3CAA3C0F04 }}
 
-      # Deploy the app to Azure Web App using the Azure Web Apps Deploy action
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
         with:
           app-name: 'simpleai'
           slot-name: 'Production'
-          package: './output' 
+          package: .
+          
