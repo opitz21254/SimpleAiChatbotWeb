@@ -22,8 +22,8 @@ jobs:
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
         with:
-          name: .net-app
-          path: /ZCode/Simpleaichatbotweb
+          name: .Simpleaichatbotweb
+          path: /ZCode/
   deploy:
     runs-on: windows-latest
     needs: build
@@ -36,7 +36,7 @@ jobs:
       - name: Download artifact from build job
         uses: actions/download-artifact@v4
         with:
-          name: .net-app
+          name: .Simpleaichatbotweb
       
       - name: Login to Azure
         uses: azure/login@v2
